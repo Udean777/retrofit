@@ -43,7 +43,6 @@ class MainActivity : ComponentActivity() {
                 Surface(
                     modifier = Modifier
                         .fillMaxSize()
-                        .clickable { sendReq() },
                     color = MaterialTheme.colorScheme.background
                 ) {
 //                    val context = LocalContext.current
